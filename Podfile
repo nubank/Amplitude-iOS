@@ -1,9 +1,11 @@
 project 'Amplitude'
 
+platform :ios, '9.0'
+
 abstract_target 'shared' do
-  
+
   pod 'OCMock', '~> 3.2.1'
-  
+
   target 'Amplitude_iOSTests' do
       platform :ios, '10.0'
   end
@@ -15,7 +17,7 @@ abstract_target 'shared' do
   target 'Amplitude_macOSTests' do
       platform :osx, '10.10'
   end
-  
+
 end
 
 post_install do |installer|
