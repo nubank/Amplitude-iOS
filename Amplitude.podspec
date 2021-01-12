@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage               = "https://amplitude.com"
   s.license                = { :type => "MIT" }
   s.author                 = { "Amplitude" => "dev@amplitude.com" }
-  s.source                 = { :git => "https://github.com/amplitude/Amplitude-iOS.git", :tag => "v#{s.version}" }
+  s.source                 = { :git => "https://github.com/nubank/Amplitude-iOS.git", :tag => "v#{s.version}" }
   s.requires_arc           = true
   s.library                = 'sqlite3.0'
 
