@@ -1,3 +1,6 @@
+
+platform :ios, '9.0'
+
 project 'Amplitude'
 
 abstract_target 'shared' do
