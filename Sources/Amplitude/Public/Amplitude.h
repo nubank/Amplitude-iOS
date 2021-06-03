@@ -25,6 +25,7 @@
 #import "AMPIdentify.h"
 #import "AMPRevenue.h"
 #import "AMPTrackingOptions.h"
+#import "AMPNetworkClient.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -126,6 +127,11 @@ typedef NSDictionary *_Nullable (^AMPLocationInfoBlock)(void);
  Whether to automatically log start and end session events corresponding to the start and end of a user's session.
  */
 @property (nonatomic, assign) BOOL trackingSessionEvents;
+
+/**
+Network client to be used for event upload requests.
+ */
+@property (nonatomic, strong) id<AMPNetworkClient> networkClient;
 
 /**
  Library name is default as `amplitude-ios`.
