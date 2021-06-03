@@ -7,7 +7,6 @@
 //
 
 #import "AMPNSURLSessionNetworkClient.h"
-#import "AMPARCMacros.h"
 #import "AMPEventUploadRequest.h"
 
 @interface AMPNSURLSessionNetworkClient()
@@ -43,7 +42,6 @@
 
     if (uploadRequest.token != nil) {
         NSString *auth = [NSString stringWithFormat:@"Bearer %@", uploadRequest.token];
-        AMPLITUDE_LOG(@"Attaching bearer %@", uploadRequest.token);
         [request setValue:auth forHTTPHeaderField:@"Authorization"];
     }
 
@@ -52,8 +50,6 @@
     [request setValue:[NSString stringWithFormat:@"%lu", (unsigned long)[postData length]] forHTTPHeaderField:@"Content-Length"];
 
     [request setHTTPBody:postData];
-
-    SAFE_ARC_RELEASE(postData);
 
     [[session dataTaskWithRequest:request completionHandler:completionHandler] resume];
 }
