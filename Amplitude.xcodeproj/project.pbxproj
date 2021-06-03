@@ -181,7 +181,7 @@
 		BC5A04E08687AE7DB6143250 /* libPods-shared-Amplitude_macOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6174D0A3357C218AF5BDE0FC /* libPods-shared-Amplitude_macOSTests.a */; };
 		BCCA55954683B11E1CE3B240 /* libPods-shared-Amplitude_iOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A550B018598B807C4829A0E1 /* libPods-shared-Amplitude_iOSTests.a */; };
 		CBF5DF8826696129008AAF29 /* AMPNetworkClient.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF5DF8326696129008AAF29 /* AMPNetworkClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CBF5DF8926696129008AAF29 /* AMPNetworkClient.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF5DF8326696129008AAF29 /* AMPNetworkClient.h */; };
+		CBF5DF8926696129008AAF29 /* AMPNetworkClient.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF5DF8326696129008AAF29 /* AMPNetworkClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CBF5DF8A26696129008AAF29 /* AMPNetworkClient.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF5DF8326696129008AAF29 /* AMPNetworkClient.h */; };
 		CBF5DF8B26696129008AAF29 /* AMPNetworkClient.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF5DF8326696129008AAF29 /* AMPNetworkClient.h */; };
 		CBF5DF8C26696129008AAF29 /* AMPNSURLSessionNetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF5DF8426696129008AAF29 /* AMPNSURLSessionNetworkClient.m */; };
@@ -189,7 +189,7 @@
 		CBF5DF8E26696129008AAF29 /* AMPNSURLSessionNetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF5DF8426696129008AAF29 /* AMPNSURLSessionNetworkClient.m */; };
 		CBF5DF8F26696129008AAF29 /* AMPNSURLSessionNetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF5DF8426696129008AAF29 /* AMPNSURLSessionNetworkClient.m */; };
 		CBF5DF9026696129008AAF29 /* AMPEventUploadRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF5DF8526696129008AAF29 /* AMPEventUploadRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CBF5DF9126696129008AAF29 /* AMPEventUploadRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF5DF8526696129008AAF29 /* AMPEventUploadRequest.h */; };
+		CBF5DF9126696129008AAF29 /* AMPEventUploadRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF5DF8526696129008AAF29 /* AMPEventUploadRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CBF5DF9226696129008AAF29 /* AMPEventUploadRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF5DF8526696129008AAF29 /* AMPEventUploadRequest.h */; };
 		CBF5DF9326696129008AAF29 /* AMPEventUploadRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF5DF8526696129008AAF29 /* AMPEventUploadRequest.h */; };
 		CBF5DF9426696129008AAF29 /* AMPEventUploadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF5DF8626696129008AAF29 /* AMPEventUploadRequest.m */; };
@@ -573,14 +573,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBF5DF9126696129008AAF29 /* AMPEventUploadRequest.h in Headers */,
 				759E942925FBFE9600BF7C3D /* AMPBackgroundNotifier.h in Headers */,
+				CBF5DF8926696129008AAF29 /* AMPNetworkClient.h in Headers */,
 				1279FA7E2525949D003DCE07 /* ISPCertificatePinning.h in Headers */,
 				1213D89C24176E4700300E98 /* AmplitudeFramework.h in Headers */,
 				1279F91225244E8E003DCE07 /* Amplitude+SSLPinning.h in Headers */,
 				1279FA7B2525949D003DCE07 /* ISPPinnedNSURLSessionDelegate.h in Headers */,
 				1279F91825244E8E003DCE07 /* Amplitude.h in Headers */,
 				1279F91525244E8E003DCE07 /* AMPConstants.h in Headers */,
-				CBF5DF9126696129008AAF29 /* AMPEventUploadRequest.h in Headers */,
 				1279F91925244E8E003DCE07 /* AMPTrackingOptions.h in Headers */,
 				1279FA752525949D003DCE07 /* ISPPinnedNSURLConnectionDelegate.h in Headers */,
 				1279F91425244E8E003DCE07 /* AmplitudePrivate.h in Headers */,
@@ -592,7 +593,6 @@
 				1279F92025244E8E003DCE07 /* AMPDatabaseHelper.h in Headers */,
 				1279F91E25244E8E003DCE07 /* AMPURLConnection.h in Headers */,
 				1279F91725244E8E003DCE07 /* AMPConfigManager.h in Headers */,
-				CBF5DF8926696129008AAF29 /* AMPNetworkClient.h in Headers */,
 				1279F91625244E8E003DCE07 /* AMPUtils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
