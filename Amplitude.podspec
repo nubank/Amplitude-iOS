@@ -1,9 +1,9 @@
-amplitude_version = "8.3.0" # Version is managed automatically by semantic-release, please don't change it manually
+amplitude_version = "8.3.1-dev" # Version is managed automatically by semantic-release, please don't change it manually
 
 Pod::Spec.new do |s|
   s.name                   = "Amplitude"
   s.version                = amplitude_version 
-  s.summary                = "Amplitude iOS/tvOS/macOS SDK."
+  s.summary                = "Amplitude iOS/tvOS/macOS SDK lala."
   s.homepage               = "https://amplitude.com"
   s.license                = { :type => "MIT" }
   s.author                 = { "Amplitude" => "dev@amplitude.com" }
