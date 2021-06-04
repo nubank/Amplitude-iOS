@@ -4,3 +4,6 @@
 #import <Amplitude/AMPRevenue.h>
 #import <Amplitude/AMPTrackingOptions.h>
 #import <Amplitude/Amplitude+SSLPinning.h>
+#import <Amplitude/AMPEventUploadRequest.h>
+#import <Amplitude/AMPNSURLSessionNetworkClient.h>
+#import <Amplitude/AMPNetworkClient.h>
