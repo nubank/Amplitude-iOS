@@ -59,11 +59,11 @@ jobs:
       #       -destination 'platform=macosx' \
       #       test
 
-      - name: tvOS Tests
-        run: |
-          xcodebuild \
-            -workspace Amplitude.xcworkspace \
-            -scheme Amplitude_tvOS \
-            -sdk appletvsimulator \
-            -destination 'platform=tvOS Simulator,name=Apple TV' \
-            test
+      # - name: tvOS Tests
+      #   run: |
+      #     xcodebuild \
+      #       -workspace Amplitude.xcworkspace \
+      #       -scheme Amplitude_tvOS \
+      #       -sdk appletvsimulator \
+      #       -destination 'platform=tvOS Simulator,name=Apple TV' \
+      #       test
