@@ -19,3 +19,7 @@
 #import <Amplitude/ISPCertificatePinning.h>
 #import <Amplitude/ISPPinnedNSURLConnectionDelegate.h>
 #import <Amplitude/ISPPinnedNSURLSessionDelegate.h>
+
+#if TARGET_OS_WATCH
+#import <Amplitude/AMPBackgroundNotifier.h>
+#endif
