@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E98C052D1A48E7FE00800C63"
-               BuildableName = "AmplitudeTests.xctest"
-               BlueprintName = "AmplitudeTests"
-               ReferencedContainer = "container:Amplitude.xcodeproj">
+               BuildableName = "MagnitudeTests.xctest"
+               BlueprintName = "MagnitudeTests"
+               ReferencedContainer = "container:Magnitude.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -27,29 +27,27 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E98C052D1A48E7FE00800C63"
+            BuildableName = "MagnitudeTests.xctest"
+            BlueprintName = "MagnitudeTests"
+            ReferencedContainer = "container:Magnitude.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E98C052D1A48E7FE00800C63"
-               BuildableName = "AmplitudeTests.xctest"
-               BlueprintName = "AmplitudeTests"
-               ReferencedContainer = "container:Amplitude.xcodeproj">
+               BuildableName = "MagnitudeTests.xctest"
+               BlueprintName = "MagnitudeTests"
+               ReferencedContainer = "container:Magnitude.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E98C052D1A48E7FE00800C63"
-            BuildableName = "AmplitudeTests.xctest"
-            BlueprintName = "AmplitudeTests"
-            ReferencedContainer = "container:Amplitude.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -65,9 +63,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E98C052D1A48E7FE00800C63"
-            BuildableName = "AmplitudeTests.xctest"
-            BlueprintName = "AmplitudeTests"
-            ReferencedContainer = "container:Amplitude.xcodeproj">
+            BuildableName = "MagnitudeTests.xctest"
+            BlueprintName = "MagnitudeTests"
+            ReferencedContainer = "container:Magnitude.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <EnvironmentVariables>
@@ -115,9 +113,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E98C052D1A48E7FE00800C63"
-            BuildableName = "AmplitudeTests.xctest"
-            BlueprintName = "AmplitudeTests"
-            ReferencedContainer = "container:Amplitude.xcodeproj">
+            BuildableName = "MagnitudeTests.xctest"
+            BlueprintName = "MagnitudeTests"
+            ReferencedContainer = "container:Magnitude.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
