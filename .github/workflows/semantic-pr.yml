@@ -4,6 +4,10 @@ on:
   pull_request:
     types: [opened, synchronize, edited]
 
+permissions:
+  contents: read
+  pull-requests: read
+
 jobs:
   pr-title-check: 
     name: Check PR for semantic title
