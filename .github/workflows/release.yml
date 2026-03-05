@@ -8,6 +8,9 @@ on:
         required: true
         default: 'true'
 
+permissions:
+  contents: read
+
 jobs:
   authorize:
     name: Authorize
@@ -25,6 +28,10 @@ jobs:
     name: Release
     runs-on: macos-10.14
     needs: [authorize]
+    permissions:
+      contents: write
+      pull-requests: read
+      issues: read
     strategy:
       matrix:
         ruby-version: ["2.7.x"]
